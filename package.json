@@ -1,0 +1,28 @@
+{
+  "name": "node-blog-api",
+  "version": "1.0.0",
+  "description": "A blog api built with node js framework",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.14.0",
+    "uuid": "^3.0.1",
+    "body-parser": "^1.15.2",
+    "morgan": "^1.7.0"
+  },
+
+"repository": {
+  "type": "git",
+  "url": "git://github.com/DarcyDeAngeloWoolsey/repository.git"
+},
+
+  "engines": {
+    "node": "4.4.3"
+  },
+
+
+}
