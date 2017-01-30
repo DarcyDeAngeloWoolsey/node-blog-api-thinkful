@@ -14,15 +14,15 @@
     "body-parser": "^1.15.2",
     "morgan": "^1.7.0"
   },
-
-"repository": {
-  "type": "git",
-  "url": "git://github.com/DarcyDeAngeloWoolsey/repository.git"
-},
-
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/DarcyDeAngeloWoolsey/repository.git"
+  },
   "engines": {
     "node": "4.4.3"
   },
-
-
+  "devDependencies": {
+    "chai": "^3.5.0",
+    "mocha": "^3.2.0"
+  }
 }
