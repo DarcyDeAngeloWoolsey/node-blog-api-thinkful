@@ -46,7 +46,7 @@ let server;
 
 function runServer() {
 	const port = process.env.Port || 8080;
-	return new Promis((resolve, reject) => {
+	return new Promise((resolve, reject) => {
 		server = app.listen(port, () => {
 			console.log(`your app is listing on port ${port}`);
 			resolve(server); 
